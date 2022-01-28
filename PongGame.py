@@ -1,4 +1,8 @@
 #author---Katha Roy
+from gettext import install
+import pip
+
+
 
 import pygame
 
