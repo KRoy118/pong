@@ -1,10 +1,12 @@
 #author---Katha Roy
 from gettext import install
-import pip
-
-
-
+import mediapipe as mp
+import  numpy as np
+import uuid
+import os
 import pygame
+mp_drw=mp.solutions.drawing_utils
+mp_hands=mp.solutions.hands
 
 
 
